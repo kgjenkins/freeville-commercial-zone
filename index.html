@@ -30,14 +30,16 @@
             zoomControl:true, maxZoom:28, minZoom:1
         })
         var hash = new L.Hash(map);
-        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        map.attributionControl.setPrefix('');
+        map.attributionControl.addAttribution('<a href="https://www.openstreetmap.org/copyright" target="_blank">basemap &copy; OpenStreetMap contributors</a>');
+        //map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
             if (bounds_group.getLayers().length) {
                 map.fitBounds(bounds_group.getBounds());
             }
         }
-        var overlay_GoogleMaps_0 = L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+        var overlay_GoogleMaps_0 = L.tileLayer('http://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             opacity: 1.0
         });
         overlay_GoogleMaps_0.addTo(map);
