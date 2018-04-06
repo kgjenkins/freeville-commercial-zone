@@ -1,7 +1,7 @@
 # freeville-commercial-zone
 Map of proposed commercial zone for Freeville, NY
 
-The zones on this map were created by selecting the parcels that appear to be part of the map on page 26 of [this draft document](http://www.freevilleny.org/wp-content/uploads/sites/2/2018/01/FreevilleArticle3Draft2.pdf)
+The zones on this map were created by selecting the parcels that appear to be part of the [PROPOSED Commercial Zone map on page 26 this draft document](http://www.freevilleny.org/wp-content/uploads/sites/2/2018/01/FreevilleArticle3Draft2.pdf#page=14)
 
 [Click here for interactive map](https://kgjenkins.github.io/freeville-commercial-zone/webmap1/)
 
